@@ -1,0 +1,290 @@
+/* applies to all */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Crimson Text', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.br {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px 0;
+}
+
+/* Nav bar */
+nav {
+    font-family: sans-serif;
+    min-width: 100%;
+    height: 48px;
+}
+
+nav ul {
+    padding: 9px 30px;
+    margin: 12px 18px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav li {
+    font-size: 12px;
+    margin: 0 5px;
+    color: #369369;
+    display: flex;
+    padding: 7px;
+}
+
+.sign {
+    color: #17AFDF;
+}
+
+.sign:hover {
+    color: #369369;
+}
+
+nav li a {
+    transition: all 0.3 ease 0s;
+}
+
+nav li a:hover {
+    color: #17AFDF;
+}
+/* Making collaboration */
+
+.collaboration {
+    text-align: center;
+}
+
+.collaboration img {
+    display: block;
+    margin: auto;
+    width: auto;
+    padding-top: 19px;
+}
+
+h1 {
+    padding-top: 25px;
+    font-size: 46px;
+    font-weight: 800;
+    line-height: 110%;
+}
+
+.collaboration p {
+    padding-top: 25px;
+    font-size: 20px;
+}
+
+/* product boxes  */
+.boxes {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    padding-top: 34px;
+    padding-bottom: 25px;
+}
+
+.boxes h3 {
+    text-decoration: underline;
+    color: #336699;
+    font-size: 20px;
+    font-weight: 650;
+    padding-top: 15px;
+}
+
+.boxes h5 {
+    color: #C00900;
+}
+
+.boxes p {
+    font-size: 14px;
+    line-height: 150%;
+    padding: 10px 0 23px 0;
+}
+
+.box {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #E8E8E8;
+    border-radius: 5px;
+    width: 13.75%;
+    margin: 0 30px;
+}
+
+sup {
+    font-size: 11px;
+    color: #999999;
+    display: flex;
+    position: relative;
+    left: 145px;
+    bottom: 25px;
+}
+
+/* proven */
+.proven {
+    display: block;
+    margin: 30px auto;
+    width: 825px;
+    margin-bottom: 50px;
+    position: relative;
+}
+h2 {
+    text-align: center;
+    font-size: 46px;
+    line-height: 115%;
+}
+
+.proven p {
+    color: #656565;
+    font-size: 22px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.meet {
+    left: -140px;
+    position: absolute;
+    top: 70px;
+}
+
+.meet a {
+    background: url('../img/customers.png');
+    display: block;
+    height: 104px;
+    text-indent: -1000px;
+    width: 143px;
+}
+
+.meet a:hover {
+    background-position: 0 100%;
+}
+
+.meet p {
+    color: #336699;
+    cursor: pointer;
+    font-size: 14px;
+    text-align: center;
+}
+
+.meet p:hover {
+    color: #6699CC;
+    text-decoration: underline;
+}
+
+.badge {
+    float: right;
+}
+
+.customerarrow {
+    height: 36px;
+    position: relative;
+    top: -35px;
+    width: 69px;
+}
+
+.brpadchange {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2px 0 40px 0;
+}
+
+/* Company values */
+.manefesto {
+    height: 445px;
+    margin-bottom: 50px;
+}
+
+.manefesto h2 {
+    padding-bottom: 10px;
+}
+
+.column1 , .column2 {
+    color: #222222;
+    float: left;
+    font-family: sans-serif;
+    font-size: 18px;
+    height: 385px;
+    line-height: 27px;
+    width: 45%;
+}
+
+.column1{
+    position: relative;
+    left: 300px;
+}
+
+.column2 {
+    margin-left: 7%;
+}
+
+.chapter {
+    clear: left;
+    color: #CCCCCC;
+    font-size: 58px;
+    float: left;
+    font-family: 'Crimson Text', sans-serif;
+    line-height: normal;
+    margin: -10px 15px 0 0;
+}
+
+.values {
+    color: #CC0000;
+    font-weight: bold;
+    margin: 5px 0;
+    text-align: left;
+}
+
+.manefesto p {
+    font-size: 12px;
+    line-height: 16px;
+    text-align: left;
+}
+
+/* rework */
+/* .rework {
+    height: 4250px;
+    width: 1000px;
+    display: grid;
+    grid-template-columns:repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    margin-left: 0;
+    margin-right: 0;
+    grid-auto-rows: 150px;
+    grid-template-areas: "1 1 hh hh hh hh hh hh 1 1"
+    "1 1 hh hh hh hh hh hh cr cr"
+    "1 1 hh hh hh hh hh hh cr cr"
+    "1 1 bo bo te te te te ar 1"
+    "1 1 bo bo te te te te 1 1"
+    "1 1 bo bo te te te te 1 1"
+    "1 1 bo bo te te te te 1 1"
+    "1 1 bo bo te te te te 1 1"
+    "1 1 bo bo 1 1 1 1 1 1"
+    "1 1 bo bo 1 1 1 1 1 1";
+}
+
+.rework h2 {
+    grid-area: hh;
+}
+
+.book {
+    grid-area: bo;
+}
+
+.crumple {
+    grid-area: cr;
+}
+
+.arrow {
+    grid-area: ar;
+}
+
+.text {
+    grid-area: te;
+} */
